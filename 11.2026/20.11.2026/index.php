@@ -21,7 +21,8 @@ session_start();
     <table>
         <tr>
             <td><label for="imie">imie</label></td>
-            <td><input type="text" name="imie" id="imie" value="<?php echo isset($_COOKIE['imie'])?$_COOKIE['imie']:""?>"></td>
+            <td><input type="text" name="imie" id="imie" value="
+            "></td>
         </tr>
         <tr>
             <td><label for="produkt">produkt</label></td>
